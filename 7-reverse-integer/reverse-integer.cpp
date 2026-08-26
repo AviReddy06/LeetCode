@@ -8,8 +8,7 @@ public:
         }
         if(r<INT_MIN||r>INT_MAX){
             return 0;
-        }else{
-            return r;
         }
+        return int(r);
     }
 };
