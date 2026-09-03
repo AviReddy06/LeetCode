@@ -1,4 +1,12 @@
-<h2><a href="https://leetcode.com/problems/missing-number">Missing Number</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Given an array <code>nums</code> containing <code>n</code> distinct numbers in the range <code>[0, n]</code>, return <em>the only number in the range that is missing from the array.</em></p>
+# 268. Missing Number
+
+🟢 **Easy** &nbsp;|&nbsp; [View on LeetCode](https://leetcode.com/problems/missing-number/)
+
+**Topics:** Array, Hash Table, Math, Binary Search, Bit Manipulation, Sorting
+
+---
+
+<p>Given an array <code>nums</code> containing <code>n</code> distinct numbers in the range <code>[0, n]</code>, return <em>the only number in the range that is missing from the array.</em></p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
@@ -67,3 +75,8 @@
 
 <p>&nbsp;</p>
 <p><strong>Follow up:</strong> Could you implement a solution using only <code>O(1)</code> extra space complexity and <code>O(n)</code> runtime complexity?</p>
+
+
+---
+
+**My Solution:** [268-Missing-Number.cpp](./268-Missing-Number.cpp)
