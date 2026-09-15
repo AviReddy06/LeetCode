@@ -11,23 +11,11 @@ public:
             }
         }
         max_count = count;
-        int l = 0,r = k;
-        while(r<s.size()){
-            if(isvowel(s[l])==true&&isvowel(s[r])==true){
-                max_count = std::max(max_count,count);
-                // continue;
-            }else if(isvowel(s[l])==false&&isvowel(s[r])==true){
-                count++;
-                max_count = std::max(max_count,count);
-            }else if(isvowel(s[l])==true&&isvowel(s[r])==false){
-                count--;
-                max_count = std::max(max_count,count);
-            }else if(isvowel(s[l])==false&&isvowel(s[r])==false){
-                // count--;
-                max_count = std::max(max_count,count);
-            }
-            l++;
-            r++;
+        for(int i = k;i<s.size();i++){
+            if(isvowel(s[i])==true) count++;
+            if(isvowel(s[i-k])==true) count--;
+
+            max_count = std::max(max_count,count);
         }
 
         return max_count;
