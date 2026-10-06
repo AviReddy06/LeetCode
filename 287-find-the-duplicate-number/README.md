@@ -1,4 +1,12 @@
-<h2><a href="https://leetcode.com/problems/find-the-duplicate-number">Find the Duplicate Number</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Given an array of integers <code>nums</code> containing&nbsp;<code>n + 1</code> integers where each integer is in the range <code>[1, n]</code> inclusive.</p>
+# 287. Find the Duplicate Number
+
+🟡 **Medium** &nbsp;|&nbsp; [View on LeetCode](https://leetcode.com/problems/find-the-duplicate-number/)
+
+**Topics:** Array, Two Pointers, Binary Search, Bit Manipulation, Pigeonhole Principle, Floyd's Cycle Finding Algorithm
+
+---
+
+<p>Given an array of integers <code>nums</code> containing&nbsp;<code>n + 1</code> integers where each integer is in the range <code>[1, n]</code> inclusive.</p>
 
 <p>There is only <strong>one repeated number</strong> in <code>nums</code>, return <em>this&nbsp;repeated&nbsp;number</em>.</p>
 
@@ -42,3 +50,8 @@
 	<li>How can we prove that at least one duplicate number must exist in <code>nums</code>?</li>
 	<li>Can you solve the problem in linear runtime complexity?</li>
 </ul>
+
+
+---
+
+**My Solution:** [287-Find-the-Duplicate-Number.cpp](./287-Find-the-Duplicate-Number.cpp)
