@@ -23,6 +23,6 @@ public:
             rmapping[t[i]] = s[i];
         }
         return true;
-
+//this is a comment
     }
 };
