@@ -12,17 +12,16 @@ public:
                     return false;
                 }
             }
-            mapping[s[i]] = t[i];
-        }
-        for(int i=0;i<s.size();i++){
             if(rmapping.count(t[i])){
                 if(rmapping[t[i]]!=s[i]){
                     return false;
                 }
             }
+            mapping[s[i]] = t[i];
             rmapping[t[i]] = s[i];
         }
+        
         return true;
-
+//this is a comment
     }
 };
