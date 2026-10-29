@@ -6,7 +6,7 @@ public:
             r = r*10 + x%10;
             x = x/10;
         }
-        //this si a comment
+        //this si a comment,ushgb liar 
         if(r<INT_MIN||r>INT_MAX){
             return 0;
         }
