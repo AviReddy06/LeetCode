@@ -14,19 +14,14 @@ public:
                 st.pop();
                 if(c=="+"){
                     res = a+b;
-                    st.push(res);
                 }else if(c=="-"){
                     res = a-b;
-                    st.push(res);
                 }else if(c=="*"){
                     res = a*b;
-                    st.push(res);
-                }else if(c=="/"){
-                    res = a/b;
-                    st.push(res);
                 }else{
-                    cout<<"Invalid Operator";
+                    res = a/b;
                 }
+                st.push(res);
             }else{
                 int num = stoi(c);
                 st.push(num);
