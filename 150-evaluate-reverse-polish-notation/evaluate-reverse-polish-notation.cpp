@@ -6,7 +6,7 @@ public:
         if (tokens.size()<=1){
             return stoi(tokens[0]);
         }
-        for(string c:tokens){
+        for(const string& c:tokens){
             if(c=="+"||c=="-"||c=="*"||c=="/"){
                 int b = st.top();
                 st.pop();
