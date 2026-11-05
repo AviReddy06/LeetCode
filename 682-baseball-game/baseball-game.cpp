@@ -2,7 +2,7 @@ class Solution {
 public:
     int calPoints(vector<string>& operations) {
         stack<int> st;
-        for(string s:operations){
+        for(const string& s : operations){
             if(s=="D"){
                 
                 st.push(2*st.top());
